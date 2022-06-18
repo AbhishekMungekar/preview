@@ -1,0 +1,81 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Carrois+Gothic+SC&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    /* background-color: #CECCCC; */
+    background-color: #F5F5F5;
+    font-family: 'Carrois Gothic SC', sans-serif;
+}
+
+#container {
+    display: flex;
+    align-items: center;
+    margin-left: 320px;
+    margin-right: 320px;
+    color: #F5F5F5;
+    background-color: #CECCCC;
+  
+    width: 47%;
+    height: 407px;
+    margin-top: 50px;
+}
+
+.sec-1 h2 {
+    text-transform: capitalize;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 27px;
+    color: rgb(250, 246, 246);
+
+}
+
+.sec-1{
+    margin-left: 29px;
+}
+ul {
+    margin-top: 25px; 
+     width: 220px;
+    
+}
+
+ul li {
+    list-style: none;
+    color: black;
+    font-size: 17px;
+    background-color: #EDEDED;
+    text-transform: capitalize;
+}
+.grey{
+    background-color: #898989;
+}
+
+.img {
+    padding-left: 10px;
+}
+
+.img img {
+    width: 365px;
+    height: 350px;
+    margin-top: 6px;
+
+}
+.btn{
+    outline: none;
+    border: none;
+        background-color: #898989;
+        color: #F5F5F5;
+        margin-top: 20px;
+        margin-left: 119px;
+        width: 100px;
+        height: 25px;
+        font-family: 'Carrois Gothic SC', sans-serif;
+        text-transform: capitalize;
+}
+
+   
